@@ -10,14 +10,19 @@ Change files to get a feel for git
 
 :: Steps ::
 
-Checking out this Project:
+Checking out this Project for the first time:
 
 1. Open up terminal
 2. CD to your websites folder
 3. $ git checkout https://github.com/maxwellcarl/test.git   <- ( location of git hub project you want to work on )
 4. Edit the files  ( update index.html with current time or whatever you want )
 
-View Changes and Push to Repo:
+Before Editing Existing Repo: 
+
+1. git pull origin master  ( pull latest changes to the master branch that may have been added by someone else... or git pull branch of your choice )
+2. Begin Editing 
+
+View Changes and Push Changes to Repo:
 
 1. cd to project root folder in terminal
 2. $ git status  ( this shows which files you've edited )
