@@ -14,13 +14,16 @@ Checking out this Project for the first time:
 
 1. Open up terminal
 2. CD to your websites folder
-3. $ git clone https://github.com/maxwellcarl/test.git   <- ( location of git hub project you want to work on )
-4. Edit the files  ( update index.html with current time or whatever you want )
+3. $ git clone https://github.com/maxwellcarl/test.git   <- ( location of git hub project you want to work on clones everything in repo)
+4. $ git remote set-url origin https://github.com/maxwellcarl/test.git     <- ( changes remote origin from SSH to HTTPS .... location of git hub project you want to work on )
+5. $ git remote -v   ( check that your remote is set to the right git repository. )
+6. Start Editing the files  ( update index.html with current time or whatever you want )
 
 Before Editing Existing Repo: 
 
-1. git pull origin master  ( pull latest changes to the master branch that may have been added by someone else... or git pull branch of your choice )
-2. Begin Editing 
+1. cd to project root folder in terminal ( or that contains .git folder )
+2. git pull origin master  ( !!! important !!! pull latest changes to the master branch that may have been added by someone else... or git pull branch of your choice )
+3. Begin Editing 
 
 View Changes and Push Changes to Repo:
 
