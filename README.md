@@ -27,9 +27,15 @@ View Changes and Push to Repo:
 
 Creating a new branch to work on:
 
-1. git branch   ( returns current working branch )( most likely master branch if none have been made )
-2. git checkout -b [new branch name]    ( creates new branch of HEAD )
-3. git push origin [new branch name]
+1. $ git branch   ( returns current working branch )( most likely master branch if none have been made )
+2. $ git checkout -b [new branch name]    ( creates new branch of HEAD ... dont need [] brackets just name your branch )
+3. $ git push origin [new branch name]
+
+Mergin branch to master:
+
+1. $ git checkout master   ( checkout master branch )
+2. $ git merge [new branch name]    ( merge your branch ... no brackets obviously )
+3. $ git push orgin master     ( resolve any conflicts then push master branch with merged branch changes )
 
 Google more on merging / branching etc if you'd like or just work on master.
 
