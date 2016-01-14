@@ -14,7 +14,7 @@ Checking out this Project for the first time:
 
 1. Open up terminal
 2. CD to your websites folder
-3. $ git checkout https://github.com/maxwellcarl/test.git   <- ( location of git hub project you want to work on )
+3. $ git clone https://github.com/maxwellcarl/test.git   <- ( location of git hub project you want to work on )
 4. Edit the files  ( update index.html with current time or whatever you want )
 
 Before Editing Existing Repo: 
